@@ -1,0 +1,75 @@
+.booking-container {
+    padding: 2rem;
+}
+
+.card-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    color: #1a237e;
+    position: relative;
+}
+
+.card-header::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 25%;
+    width: 50%;
+    height: 4px;
+    background: #e65100;
+}
+
+.textfield {
+    margin-top: 4rem;
+}
+
+.textfield input {
+    width: 400px;
+}
+
+.textfield input::placeholder {
+    color: #1a237e;
+}
+
+.textfield label {
+    color: #1a237e;
+    font-family: inherit !important;
+    font-weight: 500;
+}
+
+.textfield p {
+    font-weight: bold;
+    font-family: inherit !important;
+    color: #1a237e;
+}
+
+.home-container .search-bttn {
+    background-color: #e65100;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.home-container .button-cont {
+    text-align: end;
+}
+
+.action-cont button {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.action-cont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.action-cont .vertical-divider {
+    margin: 0rem 10px;
+    border-left:#e65100 solid 2px;
+    height: 20px;
+}
